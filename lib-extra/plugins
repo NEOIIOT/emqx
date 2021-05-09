@@ -1,5 +1,7 @@
 {erlang_plugins,
-  [ {emqx_plugin_template, {git, "https://github.com/emqx/emqx-plugin-template", {tag, "4.3.0"}}}
+  [
+    {emqx_plugin_template, {git, "https://github.com/emqx/emqx-plugin-template", {tag, "4.3.0"}}},
+    {emqx_rabbit_hook, {git, "https://github.com/NEOIIOT/emqx_rabbit_hook", {tag, "4.3"}}}
   ]
 }.
 
